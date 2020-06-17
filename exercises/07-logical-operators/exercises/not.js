@@ -3,6 +3,11 @@
 // write a function that behaves the same as !
 //  ... but doesn't use !
 function not(value) {
+    if (Boolean(value) === false) {
+        return true;
+      } else {
+        return false;
+      }
 
 }
 

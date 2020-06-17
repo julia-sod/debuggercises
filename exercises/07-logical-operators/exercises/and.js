@@ -3,7 +3,11 @@
 // write a function that behaves the same as &&
 //  ... without using &&
 function and(left, right) {
-
+  if (Boolean(left) === false) {
+    return left;
+  } else {
+    return right;
+  }
 }
 
 const _1_expect = 0;

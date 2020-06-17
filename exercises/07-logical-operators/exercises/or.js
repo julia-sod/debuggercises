@@ -3,6 +3,11 @@
 // write a function that behaves the same as ||
 //  ... without using ||
 function or(left, right) {
+    if (Boolean(left) === true) {
+        return left;
+      } else {
+        return right;
+      }
 
 }
 

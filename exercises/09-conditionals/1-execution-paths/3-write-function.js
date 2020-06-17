@@ -1,10 +1,10 @@
 function mystery(a, b) {
   let result = '';
-  if (_) {
+  if (a && b) {
     result = 'path 1';
-  } else if (_) {
+  } else if (!a && !b) {
     result = 'path 2';
-  } else if (_) {
+  } else if (typeof a === typeof b) {
     result = 'path 3';
   } else {
     result = 'path 4';

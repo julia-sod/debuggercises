@@ -5,6 +5,11 @@ let b = 1;
 let temp = null;
 
 // write some code!
+temp = a;
+a = b;
+b = temp;
+
+
 
 
 
@@ -16,6 +21,6 @@ console.assert(isTrue1, 'Test 1');
 const isTrue2 = b === 2;
 console.assert(isTrue2, 'Test 2');
 
-const isTrue3 = temp === _;
+const isTrue3 = temp === 2;
 console.assert(isTrue3, 'Test 3');
 

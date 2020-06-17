@@ -1,12 +1,21 @@
 'use strict';
 
 let a = 3;
-let b = 4;
+let b = 4;2
 let c = 1;
-let d = 2;
-let temp = null;
+let d = 2;4
+let temp = null;3
 
 // write some code!
+temp = b;
+b = d;
+d = temp;
+temp = a;
+a = c;
+c = temp;
+
+
+
 
 
 
@@ -25,6 +34,6 @@ console.assert(isTrue3, 'Test 3');
 const isTrue4 = d === 4;
 console.assert(isTrue4, 'Test 4');
 
-const isTrue5 = temp === _;
+const isTrue5 = temp === 3;
 console.assert(isTrue5, 'Test 5');
 

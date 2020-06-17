@@ -11,7 +11,8 @@
 function mystery(a) {
   // no need to check a , they can be any type
 
-  const result = _;
+  const result = isNaN(a) ;
+  // Checks if the parsing of the param into a number results as a number or not
 
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
