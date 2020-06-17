@@ -2,7 +2,7 @@
 
 ## /exercises/03-comparing-and-asserting/examples 
 
-> 6/16/2020, 12:58:58 PM 
+> 6/17/2020, 16:01:06 
 
 [../README.md](../README.md)
 
@@ -95,16 +95,16 @@ UNCAUGHT:   ...  /exercises/03-comparing-and-asserting/examples/2-extra-assignme
 ^^^^^^^^^
 
 SyntaxError: Invalid left-hand side in assignment
-    at wrapSafe (internal/modules/cjs/loader.js:1116:16)
-    at Module._compile (internal/modules/cjs/loader.js:1164:27)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at wrapSafe (internal/modules/cjs/loader.js:1047:16)
+    at Module._compile (internal/modules/cjs/loader.js:1097:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:107:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) 
 ```
 
 ```js
@@ -200,15 +200,15 @@ LOG: -- examples --
 LOG: -- practice exercises --
 UNCAUGHT: ReferenceError: _ is not defined
     at Object.<anonymous> (  ...  /exercises/03-comparing-and-asserting/examples/4-testing-with-assert.js:28:33)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:107:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) 
 ```
 
 ```js

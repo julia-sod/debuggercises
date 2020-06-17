@@ -2,7 +2,7 @@
 
 ## /exercises/10-functions-201/2-fix-the-bugs 
 
-> 6/16/2020, 12:58:58 PM 
+> 6/17/2020, 16:01:06 
 
 [../README.md](../README.md)
 
@@ -45,10 +45,10 @@ function areNotSameLength(num1, num2) {
   if (typeof num2 !== 'number') { throw new TypeError(); }
 
   const result = 'the same';
-  if (num1 = num2) {
-    result === `are {result}`;
+  if (num1 === num2) {
+    result === `are ${result}`;
   } else {
-    result === "aren't ${result}";
+    result === `aren't ${result}`;
   }
 
   if (typeof result !== 'string') { throw new TypeError(); }
@@ -98,12 +98,12 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 UNCAUGHT: TypeError: Cannot create property 'Length' on string 'carboat'
     at areNotSameLength (  ...  /exercises/10-functions-201/2-fix-the-bugs/2.js:18:19)
     at Object.<anonymous> (  ...  /exercises/10-functions-201/2-fix-the-bugs/2.js:32:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
     at evaluate (  ...  /scripts/lib/evaluate.js:12:7)
     at Object.<anonymous> (  ...  /scripts/review.js:107:1) 
 ```
