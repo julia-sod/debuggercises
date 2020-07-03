@@ -2,7 +2,7 @@
 
 ## /exercises/10-functions-201 
 
-> 6/17/2020, 16:01:06 
+> 7/3/2020, 17:21:30 
 
 [../README.md](../README.md)
 
@@ -18,7 +18,7 @@
   - [/5-twins.js](./1-fill-in-the-blanks/README.md#5-twinsjs) - _pass_ 
   - [/6-twins.js](./1-fill-in-the-blanks/README.md#6-twinsjs) - _pass_ 
 - [/2-fix-the-bugs](./2-fix-the-bugs/README.md)
-  - [/1.js](./2-fix-the-bugs/README.md#1js) - _fail_ 
-  - [/2.js](./2-fix-the-bugs/README.md#2js) - _error_ 
-  - [/3.js](./2-fix-the-bugs/README.md#3js) - _fail_ 
+  - [/1.js](./2-fix-the-bugs/README.md#1js) - _pass_ 
+  - [/2.js](./2-fix-the-bugs/README.md#2js) - _pass_ 
+  - [/3.js](./2-fix-the-bugs/README.md#3js) - _pass_ 
 
